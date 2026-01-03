@@ -1,0 +1,470 @@
+[
+  {
+    "id": 0,
+    "title": "FOOL",
+    "image": "assets/images/00_fool.png",
+    "text": "assets/texts/00_fool.txt"
+  },
+  {
+    "id": 1,
+    "title": "MAGICIAN",
+    "image": "assets/images/01_magician.png",
+    "text": "assets/texts/01_magician.txt"
+  },
+  {
+    "id": 2,
+    "title": "HIGH PRIESTESS",
+    "image": "assets/images/02_high_priestess.png",
+    "text": "assets/texts/02_high_priestess.txt"
+  },
+  {
+    "id": 3,
+    "title": "EMPRESS",
+    "image": "assets/images/03_empress.png",
+    "text": "assets/texts/03_empress.txt"
+  },
+  {
+    "id": 4,
+    "title": "EMPROR",
+    "image": "assets/images/04_empror.png",
+    "text": "assets/texts/04_empror.txt"
+  },
+  {
+    "id": 5,
+    "title": "HIEROPHANT",
+    "image": "assets/images/05_hierophant.png",
+    "text": "assets/texts/05_hierophant.txt"
+  },
+  {
+    "id": 6,
+    "title": "LOVERS",
+    "image": "assets/images/06_lovers.png",
+    "text": "assets/texts/06_lovers.txt"
+  },
+  {
+    "id": 7,
+    "title": "CHARIOT",
+    "image": "assets/images/07_chariot.png",
+    "text": "assets/texts/07_chariot.txt"
+  },
+  {
+    "id": 8,
+    "title": "STRENGTH",
+    "image": "assets/images/08_strength.png",
+    "text": "assets/texts/08_strength.txt"
+  },
+  {
+    "id": 9,
+    "title": "HERMIT",
+    "image": "assets/images/09_hermit.png",
+    "text": "assets/texts/09_hermit.txt"
+  },
+  {
+    "id": 10,
+    "title": "WHEEL OF FORTUNE",
+    "image": "assets/images/10_wheel_of_fortune.png",
+    "text": "assets/texts/10_wheel_of_fortune.txt"
+  },
+  {
+    "id": 11,
+    "title": "JUSTICE",
+    "image": "assets/images/11_justice.png",
+    "text": "assets/texts/11_justice.txt"
+  },
+  {
+    "id": 12,
+    "title": "HANGED MAN",
+    "image": "assets/images/12_hanged_man.png",
+    "text": "assets/texts/12_hanged_man.txt"
+  },
+  {
+    "id": 13,
+    "title": "DEATH",
+    "image": "assets/images/13_death.png",
+    "text": "assets/texts/13_death.txt"
+  },
+  {
+    "id": 14,
+    "title": "TEMPERANCE",
+    "image": "assets/images/14_temperance.png",
+    "text": "assets/texts/14_temperance.txt"
+  },
+  {
+    "id": 15,
+    "title": "DEVIL",
+    "image": "assets/images/15_devil.png",
+    "text": "assets/texts/15_devil.txt"
+  },
+  {
+    "id": 16,
+    "title": "TOWER",
+    "image": "assets/images/16_tower.png",
+    "text": "assets/texts/16_tower.txt"
+  },
+  {
+    "id": 17,
+    "title": "STAR",
+    "image": "assets/images/17_star.png",
+    "text": "assets/texts/17_star.txt"
+  },
+  {
+    "id": 18,
+    "title": "MOON",
+    "image": "assets/images/18_moon.png",
+    "text": "assets/texts/18_moon.txt"
+  },
+  {
+    "id": 19,
+    "title": "SUN",
+    "image": "assets/images/19_sun.png",
+    "text": "assets/texts/19_sun.txt"
+  },
+  {
+    "id": 20,
+    "title": "JUDGMENT",
+    "image": "assets/images/20_judgment.png",
+    "text": "assets/texts/20_judgment.txt"
+  },
+  {
+    "id": 21,
+    "title": "WORLD",
+    "image": "assets/images/21_world.png",
+    "text": "assets/texts/21_world.txt"
+  },
+  {
+    "id": 22,
+    "title": "ACE OF WANDS",
+    "image": "assets/images/22_ace_of_wands.png",
+    "text": "assets/texts/22_ace_of_wands.txt"
+  },
+  {
+    "id": 23,
+    "title": "TWO OF WANDS",
+    "image": "assets/images/23_two_of_wands.png",
+    "text": "assets/texts/23_two_of_wands.txt"
+  },
+  {
+    "id": 24,
+    "title": "THREE OF WANDS",
+    "image": "assets/images/24_three_of_wands.png",
+    "text": "assets/texts/24_three_of_wands.txt"
+  },
+  {
+    "id": 25,
+    "title": "FOUR OF WANDS",
+    "image": "assets/images/25_four_of_wands.png",
+    "text": "assets/texts/25_four_of_wands.txt"
+  },
+  {
+    "id": 26,
+    "title": "FIVE OF WANDS",
+    "image": "assets/images/26_five_of_wands.png",
+    "text": "assets/texts/26_five_of_wands.txt"
+  },
+  {
+    "id": 27,
+    "title": "SIX OF WANDS",
+    "image": "assets/images/27_six_of_wands.png",
+    "text": "assets/texts/27_six_of_wands.txt"
+  },
+  {
+    "id": 28,
+    "title": "SEVEN OF WANDS",
+    "image": "assets/images/28_seven_of_wands.png",
+    "text": "assets/texts/28_seven_of_wands.txt"
+  },
+  {
+    "id": 29,
+    "title": "EIGHT OF WANDS",
+    "image": "assets/images/29_eight_of_wands.png",
+    "text": "assets/texts/29_eight_of_wands.txt"
+  },
+  {
+    "id": 30,
+    "title": "NINE OF WANDS",
+    "image": "assets/images/30_nine_of_wands.png",
+    "text": "assets/texts/30_nine_of_wands.txt"
+  },
+  {
+    "id": 31,
+    "title": "TEN OF WANDS",
+    "image": "assets/images/31_ten_of_wands.png",
+    "text": "assets/texts/31_ten_of_wands.txt"
+  },
+  {
+    "id": 32,
+    "title": "PAGE OF WANDS",
+    "image": "assets/images/32_page_of_wands.png",
+    "text": "assets/texts/32_page_of_wands.txt"
+  },
+  {
+    "id": 33,
+    "title": "KNIGHT OF WANDS",
+    "image": "assets/images/33_knight_of_wands.png",
+    "text": "assets/texts/33_knight_of_wands.txt"
+  },
+  {
+    "id": 34,
+    "title": "QUEEN OF WANDS",
+    "image": "assets/images/34_queen_of_wands.png",
+    "text": "assets/texts/34_queen_of_wands.txt"
+  },
+  {
+    "id": 35,
+    "title": "KING OF WANDS",
+    "image": "assets/images/35_king_of_wands.png",
+    "text": "assets/texts/35_king_of_wands.txt"
+  },
+  {
+    "id": 36,
+    "title": "ACE OF CUPS",
+    "image": "assets/images/36_ace_of_cups.png",
+    "text": "assets/texts/36_ace_of_cups.txt"
+  },
+  {
+    "id": 37,
+    "title": "TWO OF CUPS",
+    "image": "assets/images/37_two_of_cups.png",
+    "text": "assets/texts/37_two_of_cups.txt"
+  },
+  {
+    "id": 38,
+    "title": "THREE OF CUPS",
+    "image": "assets/images/38_three_of_cups.png",
+    "text": "assets/texts/38_three_of_cups.txt"
+  },
+  {
+    "id": 39,
+    "title": "FOUR OF CUPS",
+    "image": "assets/images/39_four_of_cups.png",
+    "text": "assets/texts/39_four_of_cups.txt"
+  },
+  {
+    "id": 40,
+    "title": "FIVE OF CUPS",
+    "image": "assets/images/40_five_of_cups.png",
+    "text": "assets/texts/40_five_of_cups.txt"
+  },
+  {
+    "id": 41,
+    "title": "SIX OF CUPS",
+    "image": "assets/images/41_six_of_cups.png",
+    "text": "assets/texts/41_six_of_cups.txt"
+  },
+  {
+    "id": 42,
+    "title": "SEVEN OF CUPS",
+    "image": "assets/images/42_seven_of_cups.png",
+    "text": "assets/texts/42_seven_of_cups.txt"
+  },
+  {
+    "id": 43,
+    "title": "EIGHT OF CUPS",
+    "image": "assets/images/43_eight_of_cups.png",
+    "text": "assets/texts/43_eight_of_cups.txt"
+  },
+  {
+    "id": 44,
+    "title": "NINE OF CUPS",
+    "image": "assets/images/44_nine_of_cups.png",
+    "text": "assets/texts/44_nine_of_cups.txt"
+  },
+  {
+    "id": 45,
+    "title": "TEN OF CUPS",
+    "image": "assets/images/45_ten_of_cups.png",
+    "text": "assets/texts/45_ten_of_cups.txt"
+  },
+  {
+    "id": 46,
+    "title": "PAGE OF CUPS",
+    "image": "assets/images/46_page_of_cups.png",
+    "text": "assets/texts/46_page_of_cups.txt"
+  },
+  {
+    "id": 47,
+    "title": "KNIGHT OF CUPS",
+    "image": "assets/images/47_knight_of_cups.png",
+    "text": "assets/texts/47_knight_of_cups.txt"
+  },
+  {
+    "id": 48,
+    "title": "QUEEN OF CUPS",
+    "image": "assets/images/48_queen_of_cups.png",
+    "text": "assets/texts/48_queen_of_cups.txt"
+  },
+  {
+    "id": 49,
+    "title": "KING OF CUPS",
+    "image": "assets/images/49_king_of_cups.png",
+    "text": "assets/texts/49_king_of_cups.txt"
+  },
+  {
+    "id": 50,
+    "title": "ACE OF SWORDS",
+    "image": "assets/images/50_ace_of_swords.png",
+    "text": "assets/texts/50_ace_of_swords.txt"
+  },
+  {
+    "id": 51,
+    "title": "TWO OF SWORDS",
+    "image": "assets/images/51_two_of_swords.png",
+    "text": "assets/texts/51_two_of_swords.txt"
+  },
+  {
+    "id": 52,
+    "title": "THREE OF SWORDS",
+    "image": "assets/images/52_three_of_swords.png",
+    "text": "assets/texts/52_three_of_swords.txt"
+  },
+  {
+    "id": 53,
+    "title": "FOUR OF SWORDS",
+    "image": "assets/images/53_four_of_swords.png",
+    "text": "assets/texts/53_four_of_swords.txt"
+  },
+  {
+    "id": 54,
+    "title": "FIVE OF SWORDS",
+    "image": "assets/images/54_five_of_swords.png",
+    "text": "assets/texts/54_five_of_swords.txt"
+  },
+  {
+    "id": 55,
+    "title": "SIX OF SWORDS",
+    "image": "assets/images/55_six_of_swords.png",
+    "text": "assets/texts/55_six_of_swords.txt"
+  },
+  {
+    "id": 56,
+    "title": "SEVEN OF SWORDS",
+    "image": "assets/images/56_seven_of_swords.png",
+    "text": "assets/texts/56_seven_of_swords.txt"
+  },
+  {
+    "id": 57,
+    "title": "EIGHT OF SWORDS",
+    "image": "assets/images/57_eight_of_swords.png",
+    "text": "assets/texts/57_eight_of_swords.txt"
+  },
+  {
+    "id": 58,
+    "title": "NINE OF SWORDS",
+    "image": "assets/images/58_nine_of_swords.png",
+    "text": "assets/texts/58_nine_of_swords.txt"
+  },
+  {
+    "id": 59,
+    "title": "TEN OF SWORDS",
+    "image": "assets/images/59_ten_of_swords.png",
+    "text": "assets/texts/59_ten_of_swords.txt"
+  },
+  {
+    "id": 60,
+    "title": "PAGE OF SWORDS",
+    "image": "assets/images/60_page_of_swords.png",
+    "text": "assets/texts/60_page_of_swords.txt"
+  },
+  {
+    "id": 61,
+    "title": "KNIGHT OF SWORDS",
+    "image": "assets/images/61_knight_of_swords.png",
+    "text": "assets/texts/61_knight_of_swords.txt"
+  },
+  {
+    "id": 62,
+    "title": "QUEEN OF SWORDS",
+    "image": "assets/images/62_queen_of_swords.png",
+    "text": "assets/texts/62_queen_of_swords.txt"
+  },
+  {
+    "id": 63,
+    "title": "KING OF SWORDS",
+    "image": "assets/images/63_king_of_swords.png",
+    "text": "assets/texts/63_king_of_swords.txt"
+  },
+  {
+    "id": 64,
+    "title": "ACE OF PENTACLES",
+    "image": "assets/images/64_ace_of_pentacles.png",
+    "text": "assets/texts/64_ace_of_pentacles.txt"
+  },
+  {
+    "id": 65,
+    "title": "TWO OF PENTACLES",
+    "image": "assets/images/65_two_of_pentacles.png",
+    "text": "assets/texts/65_two_of_pentacles.txt"
+  },
+  {
+    "id": 66,
+    "title": "THREE OF PENTACLES",
+    "image": "assets/images/66_three_of_pentacles.png",
+    "text": "assets/texts/66_three_of_pentacles.txt"
+  },
+  {
+    "id": 67,
+    "title": "FOUR OF PENTACLES",
+    "image": "assets/images/67_four_of_pentacles.png",
+    "text": "assets/texts/67_four_of_pentacles.txt"
+  },
+  {
+    "id": 68,
+    "title": "FIVE OF PENTACLES",
+    "image": "assets/images/68_five_of_pentacles.png",
+    "text": "assets/texts/68_five_of_pentacles.txt"
+  },
+  {
+    "id": 69,
+    "title": "SIX OF PENTACLES",
+    "image": "assets/images/69_six_of_pentacles.png",
+    "text": "assets/texts/69_six_of_pentacles.txt"
+  },
+  {
+    "id": 70,
+    "title": "SEVEN OF PENTACLES",
+    "image": "assets/images/70_seven_of_pentacles.png",
+    "text": "assets/texts/70_seven_of_pentacles.txt"
+  },
+  {
+    "id": 71,
+    "title": "EIGHT OF PENTACLES",
+    "image": "assets/images/71_eight_of_pentacles.png",
+    "text": "assets/texts/71_eight_of_pentacles.txt"
+  },
+  {
+    "id": 72,
+    "title": "NINE OF PENTACLES",
+    "image": "assets/images/72_nine_of_pentacles.png",
+    "text": "assets/texts/72_nine_of_pentacles.txt"
+  },
+  {
+    "id": 73,
+    "title": "TEN OF PENTACLES",
+    "image": "assets/images/73_ten_of_pentacles.png",
+    "text": "assets/texts/73_ten_of_pentacles.txt"
+  },
+  {
+    "id": 74,
+    "title": "PAGE OF PENTACLES",
+    "image": "assets/images/74_page_of_pentacles.png",
+    "text": "assets/texts/74_page_of_pentacles.txt"
+  },
+  {
+    "id": 75,
+    "title": "KNIGHT OF PENTACLES",
+    "image": "assets/images/75_knight_of_pentacles.png",
+    "text": "assets/texts/75_knight_of_pentacles.txt"
+  },
+  {
+    "id": 76,
+    "title": "QUEEN OF PENTACLES",
+    "image": "assets/images/76_queen_of_pentacles.png",
+    "text": "assets/texts/76_queen_of_pentacles.txt"
+  },
+  {
+    "id": 77,
+    "title": "KING OF PENTACLES",
+    "image": "assets/images/77_king_of_pentacles.png",
+    "text": "assets/texts/77_king_of_pentacles.txt"
+  }
+]

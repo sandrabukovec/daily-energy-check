@@ -1,0 +1,183 @@
+[hidden] { display: none !important; }
+
+:root{
+  --bg:#0b0a0d;
+  --gold:#d4af37;
+  --text:#f5e7b8;
+}
+
+/* Stabilen scrolling na mobilnih */
+html{
+  scroll-behavior: auto;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  padding:24px;
+  overflow-x:hidden;
+
+  color:var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+
+  /* Ozadje: tkanina + nežno temnjenje + rahel rdečkasto-vijoličen ton
+     (temnjenje pomaga skriti slabšo kvaliteto, če slika ni perfektna) */
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(1200px 900px at 20% 10%, rgba(95,40,75,0.10), transparent 60%),
+    radial-gradient(900px 700px at 80% 85%, rgba(0,0,0,0.35), transparent 60%),
+    url("assets/ui/cloth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* Če ti #bgTint dela zmedo, ga kar skrijemo */
+#bgTint{ display:none; }
+
+/* Vsebina – brez flex centriranja, da skrol deluje vedno */
+.wrap{
+  width:min(980px,100%);
+  margin: 0 auto;
+  text-align:center;
+
+  /* malo prostora zgoraj, da se po scrollu vedno vidi naslov */
+  padding-top: 10px;
+}
+
+/* Title */
+.title{
+  font-family:"Alex Brush", cursive;
+  font-size:56px;
+  margin:0 0 14px;
+  font-weight:400;
+  line-height:1.05;
+}
+.title.gold {
+  font-size: 52px;
+}
+
+.subtitle-inline{
+  display:block;
+  font-size:16px;
+  margin-top:10px;
+  color:var(--text);
+  opacity:0.9;
+}
+
+.gold{ color:var(--gold); }
+
+/* Stage */
+.stage{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+.hint{
+  width:100%;
+  margin: 0 0 8px;
+  color: var(--text);
+  opacity: 0.85;
+  font-size: 14px;
+}
+
+/* Cards */
+.card{
+  width:180px;
+  height:280px;
+  border:0;
+  border-radius:14px;
+  background: url("assets/ui/card_back.png") center/cover no-repeat;
+  cursor:pointer;
+  padding:0;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.55);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 38px rgba(0,0,0,0.7);
+}
+
+.card:disabled{
+  opacity:0.55;
+  cursor:default;
+  transform:none;
+  box-shadow:none;
+}
+
+/* Status */
+.status{
+  min-height:24px;
+  margin: 14px 0 8px;
+  color:var(--text);
+  opacity:0.9;
+}
+
+/* Reveal */
+.reveal{
+  margin-top:12px;
+  display:grid;
+  gap:10px;
+  justify-items:center;
+}
+
+/* Ključno: slika naj se nikoli ne odreže in naj bo responsive */
+#card-image{
+  width: min(420px, 92vw);
+  max-width: 92vw;
+  height:auto;
+  display:block;
+
+  border-radius:18px;
+  border:1px solid rgba(212,175,55,0.6);
+  box-shadow: 0 0 24px rgba(0,0,0,0.6);
+}
+
+#card-title{
+  margin:0;
+  color:var(--gold);
+  font-size:20px;
+  letter-spacing:0.5px;
+}
+
+#card-text{
+  width: min(860px, 95vw);
+  text-align:left;
+  line-height:1.55;
+  color:var(--text);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(212,175,55,0.18);
+  border-radius:16px;
+  padding:16px 18px;
+  white-space: pre-wrap;
+}
+
+.footer{
+  margin-top:18px;
+  color: var(--text);
+  opacity: 0.85;
+  font-size: 13px;
+}
+
+@media (max-width: 520px){
+  body{ padding:16px; }
+  .title{ font-size: 44px; }
+  .card{ width: 150px; height: 240px; }
+}
+
+.fly-card{
+  position: fixed;
+  width: 180px;
+  height: 280px;
+  border-radius: 14px;
+  background: url("assets/ui/card_back.png") center/cover no-repeat;
+  pointer-events: none;
+  z-index: 9999;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.55);
+}

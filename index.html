@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily energy check</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+
+   <h1 class="title">Daily energy check</h1>
+<h1 class="title gold">Intuitively draw one card</h1>
+
+    <div class="stage" id="stage">
+      <div class="hint" id="hint" hidden>
+        Card revealed below ↓
+      </div>
+      <button class="card" data-slot="1" aria-label="Card 1"></button>
+      <button class="card" data-slot="2" aria-label="Card 2"></button>
+      <button class="card" data-slot="3" aria-label="Card 3"></button>
+    </div>
+
+    <div class="status" id="status"></div>
+
+    <section class="reveal" id="reveal" hidden>
+      <img id="card-image" src="" alt="" />
+      <h2 id="card-title"></h2>
+      <pre id="card-text"></pre>
+    </section>
+
+    <footer class="footer">
+      <p>This is a symbolic reflection, not a prediction.</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
