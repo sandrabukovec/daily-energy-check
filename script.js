@@ -177,4 +177,15 @@ cardsTop.forEach(btn => {
   });
 });
 
+// Auto-pick from URL (for Hive / PeakD links)
+(function autoPickFromUrl(){
+  const params = new URLSearchParams(window.location.search);
+  const pick = params.get("pick");
+  if (!pick) return;
 
+  const btn = document.querySelector(`.card[data-slot="${pick}"]`);
+  if (!btn) return;
+
+  // počakaj, da se stran naloži, potem sproži klik
+  setTimeout(() => btn.click(), 200);
+})();
